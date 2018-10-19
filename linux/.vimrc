@@ -13,7 +13,12 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 " nerdtree
 Plugin 'scrooloose/nerdtree'
+" markdown preview
 Plugin 'instant-markdown.vim'
+" tag
+Plugin 'taglist.vim'
+" git
+Plugin 'tpope/vim-fugitive'
 
 
 " The following are examples of different formats supported.
