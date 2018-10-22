@@ -16,4 +16,4 @@ use fugitive to manage git in vim edit
 `npm i npm ` to upgrade
 
 ##lnmp 
-install nginx mysql php 
+install nginx mysql php composer smarty redis git golang
