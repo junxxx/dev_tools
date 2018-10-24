@@ -1,0 +1,823 @@
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 localhost:socks         localhost:42626         ESTABLISHED
+tcp        0      0 localhost:socks         localhost:42674         ESTABLISHED
+tcp        0      0 debian:45366            li1700-174.member:63829 ESTABLISHED
+tcp        0      0 localhost:51104         localhost:36271         TIME_WAIT  
+tcp        0      0 localhost:52070         localhost:38097         TIME_WAIT  
+tcp        0      0 localhost:42686         localhost:socks         ESTABLISHED
+tcp        0      0 debian:45348            li1700-174.member:63829 ESTABLISHED
+tcp        0      0 debian:56806            223.252.199.66:https    ESTABLISHED
+tcp        0      0 localhost:42674         localhost:socks         ESTABLISHED
+tcp        0      0 localhost:42692         localhost:socks         ESTABLISHED
+tcp        0      0 debian:50634            104.20.2.47:https       ESTABLISHED
+tcp        0      0 localhost:socks         localhost:42686         ESTABLISHED
+tcp        0      0 localhost:socks         localhost:42692         ESTABLISHED
+tcp        0      0 localhost:42094         localhost:socks         ESTABLISHED
+tcp        0      0 localhost:42626         localhost:socks         ESTABLISHED
+tcp        0      0 debian:44768            li1700-174.member:63829 ESTABLISHED
+tcp        1      1 debian:56792            223.252.199.66:https    LAST_ACK   
+tcp        0      0 localhost:socks         localhost:42094         ESTABLISHED
+tcp        0      0 localhost:41774         localhost:socks         ESTABLISHED
+tcp        0      0 localhost:socks         localhost:41774         ESTABLISHED
+tcp        1      0 localhost:40108         localhost:43163         CLOSE_WAIT 
+tcp        0      0 debian:45360            li1700-174.member:63829 ESTABLISHED
+tcp        0      0 debian:44448            li1700-174.member:63829 ESTABLISHED
+tcp        0      0 debian:45300            li1700-174.member:63829 ESTABLISHED
+tcp        0      0 debian:56104            108.177.125.188:5228    ESTABLISHED
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  3      [ ]         DGRAM                    9477     /run/systemd/notify
+unix  2      [ ]         DGRAM                    9479     /run/systemd/cgroups-agent
+unix  8      [ ]         DGRAM                    9495     /run/systemd/journal/socket
+unix  2      [ ]         DGRAM                    9497     /run/systemd/journal/syslog
+unix  2      [ ]         STREAM                   58411    @calibre-singleinstance-1000-db
+unix  2      [ ]         DGRAM                    26946    /run/user/1000/systemd/notify
+unix  2      [ ]         DGRAM                    13126    /var/spool/postfix/dev/log
+unix  21     [ ]         DGRAM                    9610     /run/systemd/journal/dev-log
+unix  2      [ ]         STREAM                   58409    @calibre-singleinstance-1000-GUI
+unix  2      [ ]         DGRAM                    18144    /run/user/120/systemd/notify
+unix  3      [ ]         SEQPACKET  CONNECTED     35200    @00006
+unix  3      [ ]         STREAM     CONNECTED     37181    
+unix  3      [ ]         STREAM     CONNECTED     30221    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     27966    
+unix  3      [ ]         STREAM     CONNECTED     26612    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     36513    
+unix  3      [ ]         STREAM     CONNECTED     29743    
+unix  3      [ ]         STREAM     CONNECTED     28348    
+unix  3      [ ]         STREAM     CONNECTED     27919    
+unix  3      [ ]         STREAM     CONNECTED     20529    
+unix  3      [ ]         STREAM     CONNECTED     36234    
+unix  3      [ ]         STREAM     CONNECTED     29640    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28154    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     27447    
+unix  3      [ ]         STREAM     CONNECTED     15636    
+unix  3      [ ]         STREAM     CONNECTED     28864    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     29711    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     165160   
+unix  3      [ ]         STREAM     CONNECTED     35280    
+unix  3      [ ]         STREAM     CONNECTED     21594    
+unix  3      [ ]         STREAM     CONNECTED     208375   
+unix  3      [ ]         STREAM     CONNECTED     58539    
+unix  3      [ ]         STREAM     CONNECTED     26797    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19150    
+unix  3      [ ]         STREAM     CONNECTED     18285    /run/user/120/bus
+unix  3      [ ]         DGRAM                    18146    
+unix  3      [ ]         STREAM     CONNECTED     28715    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     21094    @/tmp/dbus-dsR9BikqYe
+unix  3      [ ]         STREAM     CONNECTED     35268    
+unix  3      [ ]         STREAM     CONNECTED     28720    /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     20462    
+unix  3      [ ]         STREAM     CONNECTED     19832    
+unix  3      [ ]         STREAM     CONNECTED     20509    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14128    /var/run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     29702    
+unix  3      [ ]         STREAM     CONNECTED     21142    /run/user/120/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     19132    
+unix  3      [ ]         STREAM     CONNECTED     28155    
+unix  2      [ ]         DGRAM                    20893    
+unix  3      [ ]         STREAM     CONNECTED     203094   
+unix  3      [ ]         STREAM     CONNECTED     53118    
+unix  3      [ ]         STREAM     CONNECTED     27606    
+unix  3      [ ]         STREAM     CONNECTED     27233    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     12768    
+unix  3      [ ]         STREAM     CONNECTED     28069    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     20592    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     210307   
+unix  3      [ ]         STREAM     CONNECTED     36809    
+unix  3      [ ]         STREAM     CONNECTED     17815    
+unix  3      [ ]         SEQPACKET  CONNECTED     36389    
+unix  3      [ ]         STREAM     CONNECTED     27442    
+unix  3      [ ]         STREAM     CONNECTED     19091    
+unix  3      [ ]         STREAM     CONNECTED     13944    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     203063   
+unix  3      [ ]         STREAM     CONNECTED     27004    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19946    
+unix  3      [ ]         STREAM     CONNECTED     52444    
+unix  3      [ ]         STREAM     CONNECTED     35926    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28074    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28695    @/tmp/dbus-tfy3uxM2
+unix  3      [ ]         STREAM     CONNECTED     21780    @/tmp/dbus-ElnUyGdy
+unix  3      [ ]         STREAM     CONNECTED     20912    
+unix  3      [ ]         STREAM     CONNECTED     19130    
+unix  3      [ ]         STREAM     CONNECTED     36811    
+unix  3      [ ]         STREAM     CONNECTED     27185    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     209482   
+unix  3      [ ]         STREAM     CONNECTED     29606    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     18364    
+unix  3      [ ]         STREAM     CONNECTED     36061    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     163709   
+unix  3      [ ]         STREAM     CONNECTED     35436    
+unix  3      [ ]         STREAM     CONNECTED     27396    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     37827    
+unix  3      [ ]         STREAM     CONNECTED     29852    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27443    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27027    
+unix  3      [ ]         STREAM     CONNECTED     20769    
+unix  3      [ ]         STREAM     CONNECTED     18350    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14126    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     26616    
+unix  3      [ ]         STREAM     CONNECTED     27962    
+unix  3      [ ]         STREAM     CONNECTED     36015    
+unix  3      [ ]         STREAM     CONNECTED     29668    
+unix  3      [ ]         STREAM     CONNECTED     29039    
+unix  2      [ ]         DGRAM                    26935    
+unix  3      [ ]         STREAM     CONNECTED     20565    @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     35270    
+unix  3      [ ]         STREAM     CONNECTED     28736    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27424    
+unix  3      [ ]         STREAM     CONNECTED     18218    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27217    
+unix  2      [ ]         DGRAM                    16200    
+unix  3      [ ]         STREAM     CONNECTED     29746    
+unix  3      [ ]         STREAM     CONNECTED     29709    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     28148    
+unix  3      [ ]         STREAM     CONNECTED     19781    
+unix  3      [ ]         STREAM     CONNECTED     39418    
+unix  3      [ ]         STREAM     CONNECTED     19117    
+unix  3      [ ]         STREAM     CONNECTED     209481   
+unix  3      [ ]         STREAM     CONNECTED     29978    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     17814    
+unix  3      [ ]         STREAM     CONNECTED     154995   
+unix  3      [ ]         STREAM     CONNECTED     36057    
+unix  3      [ ]         STREAM     CONNECTED     20498    
+unix  2      [ ]         DGRAM                    18013    
+unix  3      [ ]         STREAM     CONNECTED     30087    
+unix  3      [ ]         STREAM     CONNECTED     28406    
+unix  3      [ ]         STREAM     CONNECTED     26407    
+unix  3      [ ]         STREAM     CONNECTED     20913    
+unix  3      [ ]         STREAM     CONNECTED     13961    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20923    
+unix  3      [ ]         STREAM     CONNECTED     37166    
+unix  3      [ ]         STREAM     CONNECTED     36828    
+unix  3      [ ]         STREAM     CONNECTED     27609    
+unix  3      [ ]         STREAM     CONNECTED     38335    
+unix  3      [ ]         STREAM     CONNECTED     37172    
+unix  3      [ ]         STREAM     CONNECTED     28041    
+unix  3      [ ]         STREAM     CONNECTED     27558    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     17238    
+unix  2      [ ]         DGRAM                    13127    
+unix  3      [ ]         STREAM     CONNECTED     33651    
+unix  3      [ ]         STREAM     CONNECTED     19966    
+unix  3      [ ]         STREAM     CONNECTED     19070    
+unix  3      [ ]         STREAM     CONNECTED     38446    
+unix  2      [ ]         DGRAM                    18128    
+unix  3      [ ]         STREAM     CONNECTED     57373    
+unix  3      [ ]         STREAM     CONNECTED     44952    
+unix  3      [ ]         STREAM     CONNECTED     41529    
+unix  3      [ ]         STREAM     CONNECTED     28646    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     27604    
+unix  3      [ ]         STREAM     CONNECTED     26792    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     37177    
+unix  2      [ ]         DGRAM                    29869    
+unix  3      [ ]         STREAM     CONNECTED     28168    
+unix  3      [ ]         STREAM     CONNECTED     19080    
+unix  3      [ ]         STREAM     CONNECTED     28411    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     29580    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19147    
+unix  3      [ ]         STREAM     CONNECTED     12816    
+unix  3      [ ]         STREAM     CONNECTED     21135    
+unix  3      [ ]         STREAM     CONNECTED     19096    
+unix  3      [ ]         STREAM     CONNECTED     18257    
+unix  3      [ ]         STREAM     CONNECTED     17835    
+unix  3      [ ]         STREAM     CONNECTED     18573    
+unix  3      [ ]         STREAM     CONNECTED     35262    
+unix  3      [ ]         STREAM     CONNECTED     27463    
+unix  3      [ ]         STREAM     CONNECTED     57360    @/tmp/dbus-tfy3uxM2
+unix  3      [ ]         STREAM     CONNECTED     38337    
+unix  3      [ ]         STREAM     CONNECTED     37174    
+unix  3      [ ]         STREAM     CONNECTED     30824    
+unix  3      [ ]         STREAM     CONNECTED     20162    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20557    @/tmp/dbus-dsR9BikqYe
+unix  3      [ ]         STREAM     CONNECTED     15410    
+unix  3      [ ]         STREAM     CONNECTED     209483   
+unix  3      [ ]         STREAM     CONNECTED     33660    
+unix  3      [ ]         STREAM     CONNECTED     20064    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     155013   
+unix  3      [ ]         STREAM     CONNECTED     30422    
+unix  2      [ ]         DGRAM                    28401    
+unix  3      [ ]         STREAM     CONNECTED     18606    
+unix  3      [ ]         STREAM     CONNECTED     29913    
+unix  3      [ ]         STREAM     CONNECTED     18110    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     58404    
+unix  3      [ ]         STREAM     CONNECTED     27603    
+unix  3      [ ]         STREAM     CONNECTED     29863    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     20157    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    119368   
+unix  3      [ ]         STREAM     CONNECTED     29264    @/tmp/.ICE-unix/4398
+unix  3      [ ]         DGRAM                    9791     
+unix  2      [ ]         DGRAM                    10998    
+unix  3      [ ]         SEQPACKET  CONNECTED     40283    
+unix  3      [ ]         STREAM     CONNECTED     29867    
+unix  3      [ ]         STREAM     CONNECTED     28032    
+unix  2      [ ]         DGRAM                    21130    
+unix  3      [ ]         STREAM     CONNECTED     39403    
+unix  3      [ ]         STREAM     CONNECTED     58401    
+unix  3      [ ]         STREAM     CONNECTED     44953    
+unix  3      [ ]         STREAM     CONNECTED     28655    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     30048    
+unix  3      [ ]         STREAM     CONNECTED     28682    
+unix  3      [ ]         STREAM     CONNECTED     19123    
+unix  3      [ ]         STREAM     CONNECTED     18982    
+unix  3      [ ]         STREAM     CONNECTED     14254    
+unix  3      [ ]         STREAM     CONNECTED     27467    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     28426    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     32668    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19447    
+unix  2      [ ]         DGRAM                    13239    
+unix  3      [ ]         STREAM     CONNECTED     28076    
+unix  3      [ ]         STREAM     CONNECTED     27673    
+unix  3      [ ]         STREAM     CONNECTED     27190    /run/user/1000/bus
+unix  2      [ ]         DGRAM                    21152    
+unix  3      [ ]         STREAM     CONNECTED     20770    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     29575    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     208374   
+unix  3      [ ]         STREAM     CONNECTED     204439   
+unix  3      [ ]         STREAM     CONNECTED     203060   
+unix  3      [ ]         STREAM     CONNECTED     28066    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    18117    
+unix  3      [ ]         STREAM     CONNECTED     36515    
+unix  3      [ ]         STREAM     CONNECTED     27873    /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     27631    
+unix  3      [ ]         STREAM     CONNECTED     29122    
+unix  3      [ ]         STREAM     CONNECTED     27389    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27187    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     18775    
+unix  3      [ ]         STREAM     CONNECTED     36812    
+unix  3      [ ]         STREAM     CONNECTED     26506    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     36235    
+unix  3      [ ]         STREAM     CONNECTED     29708    
+unix  3      [ ]         STREAM     CONNECTED     29513    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19126    
+unix  3      [ ]         STREAM     CONNECTED     203095   
+unix  3      [ ]         STREAM     CONNECTED     26611    @/tmp/dbus-tfy3uxM2
+unix  3      [ ]         STREAM     CONNECTED     17414    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     36527    
+unix  3      [ ]         STREAM     CONNECTED     29040    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     27445    
+unix  3      [ ]         STREAM     CONNECTED     19108    
+unix  3      [ ]         STREAM     CONNECTED     36827    
+unix  3      [ ]         STREAM     CONNECTED     36045    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     29713    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     19135    
+unix  3      [ ]         STREAM     CONNECTED     18389    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     12947    
+unix  3      [ ]         STREAM     CONNECTED     20465    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     19087    
+unix  3      [ ]         STREAM     CONNECTED     29644    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27426    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     20528    
+unix  3      [ ]         STREAM     CONNECTED     18768    
+unix  3      [ ]         STREAM     CONNECTED     37826    
+unix  3      [ ]         STREAM     CONNECTED     27881    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     26796    
+unix  3      [ ]         STREAM     CONNECTED     35749    
+unix  3      [ ]         STREAM     CONNECTED     28737    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     21099    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19102    
+unix  3      [ ]         STREAM     CONNECTED     19084    
+unix  3      [ ]         STREAM     CONNECTED     28913    
+unix  3      [ ]         STREAM     CONNECTED     21096    @/tmp/dbus-DmjYtVXv
+unix  3      [ ]         STREAM     CONNECTED     19138    
+unix  3      [ ]         STREAM     CONNECTED     18365    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     18258    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     35190    
+unix  3      [ ]         STREAM     CONNECTED     29710    
+unix  3      [ ]         STREAM     CONNECTED     27679    
+unix  3      [ ]         STREAM     CONNECTED     27967    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     27232    
+unix  3      [ ]         STREAM     CONNECTED     29671    
+unix  3      [ ]         STREAM     CONNECTED     29195    
+unix  3      [ ]         STREAM     CONNECTED     20540    
+unix  3      [ ]         STREAM     CONNECTED     203061   
+unix  3      [ ]         STREAM     CONNECTED     27420    
+unix  3      [ ]         STREAM     CONNECTED     27184    
+unix  3      [ ]         STREAM     CONNECTED     26469    
+unix  3      [ ]         STREAM     CONNECTED     19160    
+unix  3      [ ]         STREAM     CONNECTED     13734    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     210308   
+unix  3      [ ]         STREAM     CONNECTED     35281    
+unix  3      [ ]         STREAM     CONNECTED     28153    
+unix  3      [ ]         STREAM     CONNECTED     27440    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    19436    
+unix  3      [ ]         STREAM     CONNECTED     30418    
+unix  3      [ ]         STREAM     CONNECTED     18349    
+unix  3      [ ]         STREAM     CONNECTED     29643    
+unix  3      [ ]         STREAM     CONNECTED     28156    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     28077    @/tmp/.ICE-unix/4398
+unix  3      [ ]         STREAM     CONNECTED     20530    @/tmp/dbus-dsR9BikqYe
+unix  3      [ ]         STREAM     CONNECTED     36233    
+unix  3      [ ]         STREAM     CONNECTED     28103    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28729    
+unix  3      [ ]         STREAM     CONNECTED     26292    
+unix  3      [ ]         STREAM     CONNECTED     19435    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     19133    
+unix  3      [ ]         STREAM     CONNECTED     165161   
+unix  3      [ ]         STREAM     CONNECTED     38333    
+unix  3      [ ]         STREAM     CONNECTED     29510    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     26500    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14083    
+unix  3      [ ]         STREAM     CONNECTED     35300    
+unix  3      [ ]         STREAM     CONNECTED     19105    
+unix  3      [ ]         STREAM     CONNECTED     58435    
+unix  3      [ ]         STREAM     CONNECTED     36528    
+unix  3      [ ]         STREAM     CONNECTED     19746    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     27766    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     27732    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     13204    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     58419    
+unix  3      [ ]         STREAM     CONNECTED     19073    
+unix  3      [ ]         STREAM     CONNECTED     15405    
+unix  3      [ ]         STREAM     CONNECTED     30025    
+unix  3      [ ]         STREAM     CONNECTED     28033    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     27461    
+unix  3      [ ]         STREAM     CONNECTED     26504    
+unix  3      [ ]         STREAM     CONNECTED     18767    
+unix  3      [ ]         STREAM     CONNECTED     36979    
+unix  3      [ ]         STREAM     CONNECTED     19145    
+unix  3      [ ]         STREAM     CONNECTED     19115    
+unix  3      [ ]         DGRAM                    13595    
+unix  3      [ ]         STREAM     CONNECTED     57359    
+unix  3      [ ]         STREAM     CONNECTED     28639    
+unix  3      [ ]         STREAM     CONNECTED     28113    
+unix  3      [ ]         STREAM     CONNECTED     27763    
+unix  3      [ ]         STREAM     CONNECTED     20492    
+unix  3      [ ]         STREAM     CONNECTED     13247    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     36996    
+unix  3      [ ]         STREAM     CONNECTED     33656    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     30049    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     9770     
+unix  3      [ ]         STREAM     CONNECTED     58420    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     28029    
+unix  3      [ ]         STREAM     CONNECTED     14556    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27872    
+unix  3      [ ]         STREAM     CONNECTED     18392    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27138    
+unix  3      [ ]         STREAM     CONNECTED     19078    
+unix  2      [ ]         DGRAM                    19047    
+unix  3      [ ]         STREAM     CONNECTED     17838    
+unix  2      [ ]         DGRAM                    14111    
+unix  3      [ ]         STREAM     CONNECTED     155014   
+unix  3      [ ]         STREAM     CONNECTED     30088    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     29977    /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    13598    
+unix  3      [ ]         STREAM     CONNECTED     44954    
+unix  3      [ ]         STREAM     CONNECTED     36032    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     26485    
+unix  3      [ ]         STREAM     CONNECTED     26293    
+unix  3      [ ]         STREAM     CONNECTED     17890    
+unix  3      [ ]         DGRAM                    13596    
+unix  3      [ ]         STREAM     CONNECTED     28428    
+unix  3      [ ]         STREAM     CONNECTED     29878    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13222    
+unix  3      [ ]         STREAM     CONNECTED     58405    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     37164    
+unix  3      [ ]         STREAM     CONNECTED     19111    
+unix  3      [ ]         STREAM     CONNECTED     53125    
+unix  3      [ ]         STREAM     CONNECTED     29865    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     29265    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    28047    
+unix  3      [ ]         STREAM     CONNECTED     27469    @/tmp/dbus-tfy3uxM2
+unix  3      [ ]         STREAM     CONNECTED     36051    
+unix  3      [ ]         STREAM     CONNECTED     30426    
+unix  3      [ ]         STREAM     CONNECTED     20160    @/tmp/.ICE-unix/950
+unix  3      [ ]         STREAM     CONNECTED     162279   
+unix  3      [ ]         STREAM     CONNECTED     94666    
+unix  3      [ ]         STREAM     CONNECTED     30150    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     28405    
+unix  3      [ ]         STREAM     CONNECTED     29275    /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    13597    
+unix  3      [ ]         STREAM     CONNECTED     58400    @/tmp/.ICE-unix/4398
+unix  3      [ ]         STREAM     CONNECTED     38332    
+unix  3      [ ]         STREAM     CONNECTED     29812    /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     20925    
+unix  2      [ ]         DGRAM                    19603    
+unix  2      [ ]         DGRAM                    180477   
+unix  3      [ ]         STREAM     CONNECTED     39405    
+unix  3      [ ]         STREAM     CONNECTED     27817    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     37171    
+unix  3      [ ]         STREAM     CONNECTED     32683    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     30022    
+unix  3      [ ]         STREAM     CONNECTED     28873    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     19883    /run/user/120/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     36829    
+unix  3      [ ]         STREAM     CONNECTED     28030    
+unix  3      [ ]         STREAM     CONNECTED     29914    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    20066    
+unix  3      [ ]         STREAM     CONNECTED     19148    
+unix  3      [ ]         STREAM     CONNECTED     13932    
+unix  3      [ ]         STREAM     CONNECTED     12817    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    13146    
+unix  3      [ ]         STREAM     CONNECTED     28634    
+unix  3      [ ]         STREAM     CONNECTED     27472    
+unix  3      [ ]         STREAM     CONNECTED     19118    
+unix  3      [ ]         STREAM     CONNECTED     57357    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     28656    
+unix  3      [ ]         STREAM     CONNECTED     30041    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     26295    @/tmp/dbus-LLMhgXn1
+unix  3      [ ]         STREAM     CONNECTED     20550    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     17837    
+unix  3      [ ]         STREAM     CONNECTED     17823    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     154996   
+unix  3      [ ]         STREAM     CONNECTED     35267    
+unix  3      [ ]         STREAM     CONNECTED     44955    
+unix  3      [ ]         STREAM     CONNECTED     32686    
+unix  3      [ ]         STREAM     CONNECTED     26470    
+unix  3      [ ]         STREAM     CONNECTED     36026    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     28026    
+unix  3      [ ]         STREAM     CONNECTED     20156    
+unix  3      [ ]         STREAM     CONNECTED     17593    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     36981    
+unix  3      [ ]         STREAM     CONNECTED     27778    
+unix  3      [ ]         STREAM     CONNECTED     41539    
+unix  3      [ ]         STREAM     CONNECTED     19156    
+unix  3      [ ]         STREAM     CONNECTED     203096   
+unix  3      [ ]         STREAM     CONNECTED     29161    
+unix  2      [ ]         DGRAM                    28721    
+unix  3      [ ]         STREAM     CONNECTED     19857    
+unix  3      [ ]         STREAM     CONNECTED     20576    /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     33659    
+unix  3      [ ]         STREAM     CONNECTED     20463    @/tmp/dbus-dsR9BikqYe
+unix  3      [ ]         STREAM     CONNECTED     18368    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     27189    
+unix  3      [ ]         STREAM     CONNECTED     18890    
+unix  3      [ ]         SEQPACKET  CONNECTED     36390    
+unix  3      [ ]         STREAM     CONNECTED     29512    
+unix  3      [ ]         STREAM     CONNECTED     19106    
+unix  3      [ ]         STREAM     CONNECTED     13000    
+unix  3      [ ]         STREAM     CONNECTED     29696    
+unix  3      [ ]         STREAM     CONNECTED     27863    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     27781    
+unix  3      [ ]         STREAM     CONNECTED     20543    
+unix  3      [ ]         STREAM     CONNECTED     163707   
+unix  3      [ ]         STREAM     CONNECTED     26613    
+unix  3      [ ]         SEQPACKET  CONNECTED     35438    
+unix  3      [ ]         STREAM     CONNECTED     29605    
+unix  3      [ ]         STREAM     CONNECTED     19085    
+unix  3      [ ]         STREAM     CONNECTED     27666    @/tmp/dbus-tfy3uxM2
+unix  3      [ ]         STREAM     CONNECTED     27211    
+unix  3      [ ]         DGRAM                    26949    
+unix  3      [ ]         STREAM     CONNECTED     15406    
+unix  3      [ ]         SEQPACKET  CONNECTED     35197    
+unix  3      [ ]         STREAM     CONNECTED     28105    
+unix  3      [ ]         DGRAM                    12883    
+unix  3      [ ]         STREAM     CONNECTED     36529    
+unix  3      [ ]         STREAM     CONNECTED     36049    
+unix  3      [ ]         STREAM     CONNECTED     29744    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28691    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20526    
+unix  3      [ ]         STREAM     CONNECTED     26614    @/tmp/.X11-unix/X0
+unix  3      [ ]         DGRAM                    26948    
+unix  3      [ ]         STREAM     CONNECTED     18774    
+unix  3      [ ]         STREAM     CONNECTED     37180    
+unix  3      [ ]         STREAM     CONNECTED     27421    
+unix  3      [ ]         STREAM     CONNECTED     27350    
+unix  3      [ ]         STREAM     CONNECTED     203068   
+unix  3      [ ]         STREAM     CONNECTED     29712    
+unix  3      [ ]         STREAM     CONNECTED     28730    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     204440   
+unix  3      [ ]         STREAM     CONNECTED     35299    
+unix  3      [ ]         STREAM     CONNECTED     29574    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28102    
+unix  3      [ ]         STREAM     CONNECTED     19448    
+unix  3      [ ]         STREAM     CONNECTED     163708   
+unix  3      [ ]         STREAM     CONNECTED     36526    
+unix  3      [ ]         STREAM     CONNECTED     27388    
+unix  3      [ ]         SEQPACKET  CONNECTED     35198    
+unix  3      [ ]         STREAM     CONNECTED     29669    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     29509    
+unix  3      [ ]         STREAM     CONNECTED     28701    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27782    @/tmp/dbus-tfy3uxM2
+unix  3      [ ]         STREAM     CONNECTED     20544    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     29473    
+unix  3      [ ]         STREAM     CONNECTED     27454    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     18283    
+unix  3      [ ]         STREAM     CONNECTED     36236    
+unix  3      [ ]         STREAM     CONNECTED     28734    
+unix  3      [ ]         STREAM     CONNECTED     26498    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19090    
+unix  3      [ ]         STREAM     CONNECTED     28719    
+unix  3      [ ]         STREAM     CONNECTED     21063    @/tmp/dbus-DmjYtVXv
+unix  3      [ ]         STREAM     CONNECTED     36028    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     20466    
+unix  3      [ ]         STREAM     CONNECTED     18286    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     58436    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     27731    
+unix  3      [ ]         STREAM     CONNECTED     21136    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19159    
+unix  3      [ ]         STREAM     CONNECTED     19136    
+unix  3      [ ]         STREAM     CONNECTED     35298    
+unix  3      [ ]         STREAM     CONNECTED     36060    
+unix  3      [ ]         STREAM     CONNECTED     29196    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     28863    
+unix  3      [ ]         STREAM     CONNECTED     27819    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     19129    
+unix  3      [ ]         STREAM     CONNECTED     19094    
+unix  3      [ ]         STREAM     CONNECTED     29699    
+unix  3      [ ]         STREAM     CONNECTED     28694    
+unix  2      [ ]         DGRAM                    26911    
+unix  3      [ ]         STREAM     CONNECTED     21595    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28372    
+unix  3      [ ]         STREAM     CONNECTED     20777    @/tmp/dbus-DmjYtVXv
+unix  3      [ ]         STREAM     CONNECTED     19151    
+unix  3      [ ]         STREAM     CONNECTED     18608    @/tmp/dbus-mQr5VYNW
+unix  2      [ ]         DGRAM                    41874    
+unix  3      [ ]         STREAM     CONNECTED     35752    
+unix  3      [ ]         STREAM     CONNECTED     36048    
+unix  3      [ ]         STREAM     CONNECTED     13135    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     29248    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     20784    /run/user/120/bus
+unix  3      [ ]         DGRAM                    12884    
+unix  3      [ ]         STREAM     CONNECTED     53116    
+unix  3      [ ]         STREAM     CONNECTED     53124    
+unix  3      [ ]         STREAM     CONNECTED     37178    
+unix  3      [ ]         STREAM     CONNECTED     28872    
+unix  3      [ ]         STREAM     CONNECTED     27818    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     27466    
+unix  3      [ ]         STREAM     CONNECTED     26793    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20571    
+unix  3      [ ]         STREAM     CONNECTED     19967    /run/user/120/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     19071    
+unix  3      [ ]         STREAM     CONNECTED     30425    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     28635    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     20175    
+unix  3      [ ]         STREAM     CONNECTED     58434    
+unix  3      [ ]         STREAM     CONNECTED     18109    
+unix  3      [ ]         STREAM     CONNECTED     17836    
+unix  3      [ ]         STREAM     CONNECTED     41530    
+unix  3      [ ]         STREAM     CONNECTED     28654    
+unix  3      [ ]         STREAM     CONNECTED     29919    
+unix  3      [ ]         STREAM     CONNECTED     28869    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     13212    
+unix  3      [ ]         STREAM     CONNECTED     39402    
+unix  3      [ ]         STREAM     CONNECTED     28645    
+unix  3      [ ]         STREAM     CONNECTED     29868    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     19112    
+unix  3      [ ]         STREAM     CONNECTED     18388    
+unix  3      [ ]         STREAM     CONNECTED     28269    
+unix  2      [ ]         STREAM     CONNECTED     19449    
+unix  3      [ ]         STREAM     CONNECTED     30419    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20924    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19142    
+unix  3      [ ]         STREAM     CONNECTED     57372    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     29864    
+unix  3      [ ]         STREAM     CONNECTED     28065    
+unix  3      [ ]         STREAM     CONNECTED     27473    /var/run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    9790     
+unix  3      [ ]         STREAM     CONNECTED     37829    
+unix  3      [ ]         STREAM     CONNECTED     18409    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     30040    
+unix  3      [ ]         STREAM     CONNECTED     28689    
+unix  3      [ ]         STREAM     CONNECTED     27762    
+unix  3      [ ]         STREAM     CONNECTED     19093    
+unix  3      [ ]         STREAM     CONNECTED     36993    
+unix  3      [ ]         STREAM     CONNECTED     36980    
+unix  3      [ ]         STREAM     CONNECTED     30147    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     30077    /run/user/1000/bus
+unix  3      [ ]         DGRAM                    18147    
+unix  2      [ ]         DGRAM                    29955    
+unix  3      [ ]         STREAM     CONNECTED     18895    
+unix  3      [ ]         STREAM     CONNECTED     41540    
+unix  3      [ ]         STREAM     CONNECTED     28031    /run/user/1000/bus
+unix  3      [ ]         SEQPACKET  CONNECTED     40284    
+unix  3      [ ]         STREAM     CONNECTED     19077    
+unix  3      [ ]         STREAM     CONNECTED     18217    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28054    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     31322    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     29938    
+unix  3      [ ]         STREAM     CONNECTED     28373    
+unix  3      [ ]         STREAM     CONNECTED     11477    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     155156   /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     26486    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    26413    
+unix  3      [ ]         STREAM     CONNECTED     28410    
+unix  3      [ ]         STREAM     CONNECTED     36995    
+unix  3      [ ]         STREAM     CONNECTED     36025    
+unix  3      [ ]         STREAM     CONNECTED     20914    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     14700    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     53115    
+unix  3      [ ]         STREAM     CONNECTED     28684    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27468    
+unix  3      [ ]         STREAM     CONNECTED     18605    
+unix  2      [ ]         DGRAM                    11439    
+unix  3      [ ]         STREAM     CONNECTED     36978    
+unix  3      [ ]         STREAM     CONNECTED     32664    
+unix  3      [ ]         STREAM     CONNECTED     30146    
+unix  3      [ ]         STREAM     CONNECTED     19127    
+unix  3      [ ]         STREAM     CONNECTED     13203    
+unix  3      [ ]         STREAM     CONNECTED     20063    
+unix  3      [ ]         STREAM     CONNECTED     19074    
+unix  3      [ ]         STREAM     CONNECTED     38336    
+unix  3      [ ]         STREAM     CONNECTED     26294    
+unix  3      [ ]         STREAM     CONNECTED     17879    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     57361    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     37173    
+unix  3      [ ]         STREAM     CONNECTED     28647    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     27608    
+unix  3      [ ]         STREAM     CONNECTED     27139    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     29862    
+unix  3      [ ]         STREAM     CONNECTED     20566    
+unix  3      [ ]         STREAM     CONNECTED     18408    
+unix  3      [ ]         STREAM     CONNECTED     28049    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     29975    
+unix  3      [ ]         STREAM     CONNECTED     29963    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     20493    @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     19120    
+unix  3      [ ]         STREAM     CONNECTED     36052    
+unix  3      [ ]         STREAM     CONNECTED     20464    
+unix  3      [ ]         STREAM     CONNECTED     19109    
+unix  3      [ ]         STREAM     CONNECTED     19088    
+unix  3      [ ]         STREAM     CONNECTED     29697    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     29084    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     28714    
+unix  3      [ ]         STREAM     CONNECTED     26617    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     21093    
+unix  3      [ ]         STREAM     CONNECTED     14097    
+unix  3      [ ]         SEQPACKET  CONNECTED     35201    
+unix  3      [ ]         STREAM     CONNECTED     27242    
+unix  3      [ ]         STREAM     CONNECTED     19960    
+unix  3      [ ]         STREAM     CONNECTED     13876    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     29851    
+unix  3      [ ]         STREAM     CONNECTED     28702    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20549    
+unix  3      [ ]         STREAM     CONNECTED     29198    
+unix  3      [ ]         STREAM     CONNECTED     27446    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     21779    
+unix  3      [ ]         STREAM     CONNECTED     37182    
+unix  3      [ ]         STREAM     CONNECTED     27395    
+unix  3      [ ]         STREAM     CONNECTED     19157    
+unix  2      [ ]         STREAM     CONNECTED     33654    
+unix  3      [ ]         STREAM     CONNECTED     35271    
+unix  3      [ ]         STREAM     CONNECTED     29251    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     20783    
+unix  3      [ ]         STREAM     CONNECTED     19706    
+unix  3      [ ]         STREAM     CONNECTED     163706   
+unix  3      [ ]         STREAM     CONNECTED     37828    
+unix  3      [ ]         STREAM     CONNECTED     28349    
+unix  3      [ ]         STREAM     CONNECTED     28056    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20564    
+unix  3      [ ]         STREAM     CONNECTED     19153    
+unix  3      [ ]         DGRAM                    9481     
+unix  3      [ ]         STREAM     CONNECTED     29160    
+unix  3      [ ]         STREAM     CONNECTED     36058    /run/user/1000/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     29123    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     20780    
+unix  3      [ ]         STREAM     CONNECTED     20515    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     18284    
+unix  3      [ ]         STREAM     CONNECTED     35753    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     20187    
+unix  3      [ ]         STREAM     CONNECTED     18224    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     26505    /run/user/1000/bus
+unix  2      [ ]         DGRAM                    14086    
+unix  3      [ ]         STREAM     CONNECTED     29747    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19103    
+unix  3      [ ]         STREAM     CONNECTED     52445    
+unix  3      [ ]         STREAM     CONNECTED     36516    
+unix  3      [ ]         STREAM     CONNECTED     27918    
+unix  3      [ ]         STREAM     CONNECTED     27680    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     26560    
+unix  3      [ ]         STREAM     CONNECTED     203093   
+unix  3      [ ]         SEQPACKET  CONNECTED     35437    
+unix  3      [ ]         STREAM     CONNECTED     35301    
+unix  3      [ ]         STREAM     CONNECTED     36027    
+unix  3      [ ]         STREAM     CONNECTED     27465    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     20781    @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     27453    
+unix  3      [ ]         STREAM     CONNECTED     19780    
+unix  3      [ ]         STREAM     CONNECTED     28106    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     21141    
+unix  3      [ ]         STREAM     CONNECTED     203069   
+unix  3      [ ]         STREAM     CONNECTED     35435    
+unix  3      [ ]         STREAM     CONNECTED     17413    
+unix  3      [ ]         STREAM     CONNECTED     27961    
+unix  3      [ ]         STREAM     CONNECTED     27765    
+unix  3      [ ]         STREAM     CONNECTED     36810    
+unix  3      [ ]         STREAM     CONNECTED     27351    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     20778    /var/run/dbus/system_bus_socket
+unix  3      [ ]         SEQPACKET  CONNECTED     35289    
+unix  3      [ ]         STREAM     CONNECTED     29083    
+unix  3      [ ]         STREAM     CONNECTED     27058    
+unix  3      [ ]         STREAM     CONNECTED     29474    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     17845    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13125    
+unix  3      [ ]         STREAM     CONNECTED     203062   
+unix  3      [ ]         STREAM     CONNECTED     27212    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     53117    
+unix  3      [ ]         STREAM     CONNECTED     27920    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     35750    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     29639    
+unix  3      [ ]         STREAM     CONNECTED     27439    
+unix  3      [ ]         STREAM     CONNECTED     28735    
+unix  3      [ ]         STREAM     CONNECTED     27022    
+unix  3      [ ]         STREAM     CONNECTED     29700    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28037    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     21095    
+unix  3      [ ]         STREAM     CONNECTED     36514    
+unix  3      [ ]         STREAM     CONNECTED     29672    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20188    @/tmp/dbus-DmjYtVXv
+unix  3      [ ]         STREAM     CONNECTED     20541    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     18769    
+unix  3      [ ]         STREAM     CONNECTED     37179    
+unix  2      [ ]         DGRAM                    30183    
+unix  2      [ ]         DGRAM                    27700    
+unix  3      [ ]         STREAM     CONNECTED     19154    
+unix  3      [ ]         DGRAM                    9482     
+unix  3      [ ]         STREAM     CONNECTED     154993   
+unix  3      [ ]         STREAM     CONNECTED     37165    
+unix  3      [ ]         STREAM     CONNECTED     30424    
+unix  2      [ ]         DGRAM                    30103    
+unix  3      [ ]         STREAM     CONNECTED     29715    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     27005    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     58399    
+unix  3      [ ]         STREAM     CONNECTED     29263    
+unix  3      [ ]         STREAM     CONNECTED     27779    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     21062    
+unix  2      [ ]         DGRAM                    31476    
+unix  3      [ ]         STREAM     CONNECTED     18391    
+unix  3      [ ]         STREAM     CONNECTED     37167    
+unix  3      [ ]         STREAM     CONNECTED     29976    
+unix  3      [ ]         STREAM     CONNECTED     27610    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     19798    /run/user/120/bus
+unix  3      [ ]         STREAM     CONNECTED     14122    
+unix  2      [ ]         DGRAM                    38463    
+unix  3      [ ]         STREAM     CONNECTED     28048    
+unix  3      [ ]         STREAM     CONNECTED     29877    
+unix  3      [ ]         STREAM     CONNECTED     29870    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     29579    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19139    
+unix  3      [ ]         STREAM     CONNECTED     19099    
+unix  3      [ ]         STREAM     CONNECTED     14125    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     13733    
+unix  3      [ ]         STREAM     CONNECTED     18406    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     17844    
+unix  3      [ ]         STREAM     CONNECTED     38338    
+unix  3      [ ]         STREAM     CONNECTED     18607    
+unix  3      [ ]         STREAM     CONNECTED     37175    
+unix  3      [ ]         STREAM     CONNECTED     30023    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27821    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     27462    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     26503    
+unix  3      [ ]         STREAM     CONNECTED     20185    @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     19114    
+unix  3      [ ]         STREAM     CONNECTED     12769    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     155155   
+unix  3      [ ]         STREAM     CONNECTED     19121    
+unix  3      [ ]         STREAM     CONNECTED     14555    
+unix  3      [ ]         STREAM     CONNECTED     31325    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     29939    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     39417    
+unix  3      [ ]         SEQPACKET  CONNECTED     35290    
+unix  3      [ ]         STREAM     CONNECTED     58509    @calibre-ipc-listener-5970-1
+unix  3      [ ]         STREAM     CONNECTED     41527    
+unix  2      [ ]         DGRAM                    30477    
+unix  3      [ ]         STREAM     CONNECTED     20159    
+unix  3      [ ]         STREAM     CONNECTED     19144    
+unix  3      [ ]         STREAM     CONNECTED     36830    
+unix  3      [ ]         STREAM     CONNECTED     28640    @/tmp/dbus-Dlm5SDDBPg
+unix  3      [ ]         STREAM     CONNECTED     36043    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     28683    
+unix  3      [ ]         STREAM     CONNECTED     32687    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     19141    
+unix  3      [ ]         STREAM     CONNECTED     14127    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     27464    /run/user/1000/bus
+unix  3      [ ]         STREAM     CONNECTED     17877    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    13590    
+unix  3      [ ]         STREAM     CONNECTED     36016    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     28914    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     20556    
+unix  3      [ ]         STREAM     CONNECTED     30826    
+unix  3      [ ]         STREAM     CONNECTED     29714    
+unix  3      [ ]         STREAM     CONNECTED     27557    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19081    
+unix  3      [ ]         STREAM     CONNECTED     36994    
+unix  3      [ ]         STREAM     CONNECTED     32665    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     209484   
+unix  3      [ ]         STREAM     CONNECTED     30219    @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     154994   
+unix  3      [ ]         STREAM     CONNECTED     58398    
+unix  3      [ ]         STREAM     CONNECTED     29081    
+unix  3      [ ]         STREAM     CONNECTED     41528    
+unix  3      [ ]         STREAM     CONNECTED     28878    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     162278   
+unix  3      [ ]         STREAM     CONNECTED     14123    
+unix  3      [ ]         STREAM     CONNECTED     32674    
+unix  3      [ ]         STREAM     CONNECTED     28685    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     18404    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     94665    
+unix  3      [ ]         STREAM     CONNECTED     30149    
+unix  3      [ ]         STREAM     CONNECTED     29866    /run/user/1000/bus
+unix  2      [ ]         DGRAM                    20166    
+unix  3      [ ]         STREAM     CONNECTED     19097    
+unix  3      [ ]         STREAM     CONNECTED     26499    
+unix  3      [ ]         STREAM     CONNECTED     26925    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     39404    
+unix  3      [ ]         STREAM     CONNECTED     19100    
+unix  2      [ ]         DGRAM                    15402    
+unix  3      [ ]         STREAM     CONNECTED     57416    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     37176    
+unix  3      [ ]         STREAM     CONNECTED     15637    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     38445    
+unix  3      [ ]         STREAM     CONNECTED     29811    
+unix  3      [ ]         STREAM     CONNECTED     20163    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     19124    
+unix  3      [ ]         STREAM     CONNECTED     17885    /var/run/dbus/system_bus_socket
