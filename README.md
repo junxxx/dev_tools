@@ -16,8 +16,8 @@ install ctags  sudo apt-get install ctags
 ## node
 `npm i npm ` to upgrade
 
-## lnmp 
-install nginx mysql php 
+##lnmp 
+install nginx mysql php composer smarty redis git golang
 
 ## curl git proxy
     check the curl proxy `env |grep -i all_proxy`
