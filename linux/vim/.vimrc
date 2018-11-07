@@ -19,6 +19,8 @@ Plugin 'instant-markdown.vim'
 Plugin 'taglist.vim'
 " git
 Plugin 'tpope/vim-fugitive'
+" vim-go
+Plugin 'fatih/vim-go'
 
 
 " The following are examples of different formats supported.
