@@ -1,0 +1,5 @@
+#!/bin/bash
+case $1 in
+'io')
+    iostat -xdm 1
+esac
