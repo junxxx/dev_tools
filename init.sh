@@ -1,5 +1,6 @@
 #!/bin/bash
 # the script will set the linux dev environment 
+src=./linux
 
 function copyShell() {
     bashrc=./linux/.bashrc
@@ -9,9 +10,12 @@ function copyShell() {
 }
 function installVim() {
     #todo install vim vundle global
-    #install vundle
-    git clone https://github.com/VundleVim/Vundle.vim.git ~/tmptest/bundle/Vundle.vim
-    cp ./linux/.vimrc ~/tmptest/.vimrc
+    vimfile=$src/vim/.vim
+    vimrc=$src/vim/.vimrc
+    vimpath=/usr/local/share/vim/
+    if [ ! -d $vimpath ] then sudo mkdir $vimpath fi
+    sudo mv $vimfile $vimrc $vimpath
+    if [ -f $vimfile ] then  mv $vimfile $vimpath/ fi
     echo "launch vim and install plugin with the command :PluginInstall"
 }
 function installSS() {
@@ -31,4 +35,6 @@ then
     echo 'git required:';
     exit;
 fi
+
+installVim
 
