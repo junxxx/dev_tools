@@ -1,0 +1,4 @@
+#!/bin/bash
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+ntpdate 0.cn.pool.ntp.org
+hwclock

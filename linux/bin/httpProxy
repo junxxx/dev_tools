@@ -1,0 +1,17 @@
+#!/bin/bash
+# todo test 
+bashrc=~/.bashrc
+line=`grep -n "http" ~/.bashrc |cut -d ":" -f 1`
+echo $line
+case "$1" in
+    "start")
+        echo 'start'
+        sed -i $line's/^\#//' $bashrc
+        ;;
+    "stop")
+        echo 'stop'
+        sed -i $line's/^/#&/' $bashrc
+        ;;
+esac
+
+source $bashrc
