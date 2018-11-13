@@ -1,5 +1,6 @@
-### install php from source
-
+### Install php from source
+centos
+```
 yum install epel-release -y
 yum install autoconf libtool re2c bison libxml2-devel bzip2-devel libcurl-devel libpng-devel libicu-devel gcc-c++ libmcrypt-devel libwebp-devel libjpeg-devel openssl-devel libxslt-devel -y
 
@@ -14,4 +15,32 @@ make clean
 make
 make test
 make install
+```
+debain or ubuntu
+```
+sudo apt-get install install autoconf libtool re2c bison libxml2-devel bzip2-devel libcurl-devel libpng-devel libicu-devel gcc-c++ libmcrypt-devel libwebp-devel libjpeg-devel openssl-devel libxslt-devel -y
+
+```
+
+### Install php mod from source
+* from php source path. phpsource/ext/modulename
+```
+phpize
+aclocal
+./configure --with-php-config=php-config
+make && make install
+```
+* from mod source path 
+```
+phpize(phpversion)
+./configure --with-php-config=php-config(phpversion)
+sudo make && make install
+```
+### PHP Warning:  PHP Startup: mcrypt: Unable to initialize module
+Module compiled with module API=20170718
+PHP    compiled with module API=20151012
+
+编译安装的PHP模块版本跟php版本不一致。
+
+解决方法，php-config找到模块文件路径，删除之前已经编译好的.so文件。重新编译之前，先make clean。
 
