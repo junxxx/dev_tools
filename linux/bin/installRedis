@@ -1,0 +1,37 @@
+#!/bin/bash
+if [[ $# -lt 1 ]]; then
+    echo "usage :  $0 version"
+    exit
+fi
+redisVer=$1
+sourcePath='/opt/source'
+appPath='/opt/app'
+if [[ -d $appPath/redis-$redisVer ]]; then 
+    echo "file $appPath/redis-$redisVer exists, quit"
+    exit
+fi
+if [[ ! -d $sourcePath ]]; then 
+    sudo mkdir -p $sourcePath
+fi
+
+cd $sourcePath
+if [[ ! -f "$sourcePath/redis-$redisVer.tar.gz" ]]; then 
+    wget "http://download.redis.io/releases/redis-$redisVer.tar.gz"
+fi
+if [[ -f "redis-$redisVer.tar.gz" ]]; then
+    tar xzf "redis-$redisVer.tar.gz"
+    cd "redis-$redisVer"
+    make  
+    if [[ ! -d bin ]]; then 
+        sudo mkdir bin 
+    fi
+    cd src
+    cp redis-benchmark redis-check-aof redis-check-rdb redis-cli redis-sentinel redis-server ../bin
+    if [[ ! -d $appPath ]]; then 
+        sudo mkdir -p $appPath
+    fi
+    mv "$sourcePath/redis-$redisVer/" "$appPath/redis-$redisVer"
+    echo redis-$redisVer installed in $appPath/redis-$redisVer
+else
+    echo "file redis-$redisVer does not exists"
+fi

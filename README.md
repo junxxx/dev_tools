@@ -1,13 +1,38 @@
-# dev_tools
+# Develop tools
 development tools
-## cross the great wall [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev)
-proxy in terminal [privoxy](http://www.privoxy.org/)
-
-(linux) http_proxy=http://127.0.0.1:8118 https_proxy=http://127.0.0.1:8118
-
+## Cross the great wall [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev)
+## [Privoxy](http://www.privoxy.org/)
 (mac) proxifier
 
-## cumstome vim edit
+proxy in terminal 
+centos 
+```
+sudo yum install privoxy -y
+```
+debian(ubuntu)
+```
+sudo apt-get install privoxy
+```
+edit the config file
+```
+sudo vim /etc/privoxy/config
+# 转发地址
+forward-socks5   /               127.0.0.1:1086 .
+# local network do not use proxy
+forward         192.168.*.*/     .
+forward            10.*.*.*/     .
+forward           127.*.*.*/     .
+export http_proxy=http://127.0.0.1:8118 https_proxy=http://127.0.0.1:8118
+```
+## [Vim](https://github.com/vim/vim)
+```
+download the source file 
+cd to source file
+(centos 7)./configure --enable-pythoninterp=yes --with-python-config-dir=/usr/lib64/python2.7/config
+(ubuntu) ./configure --enable-pythoninterp=yes --with-python-config-dir=/usr/lib/config-x86_64-linux-gnu/
+make && make install
+```
+## Cumstome vim edit
 manager vim plugin with [Vundle](https://github.com/VundleVim/Vundle.vim)
 install Ycm    python ~/.vim/bundle/YouCompleteMe/install.py
 use fugitive to manage git in vim edit
@@ -16,8 +41,14 @@ install ctags  sudo apt-get install ctags
 ## node
 `npm i npm ` to upgrade
 
-##lnmp 
-install nginx mysql php composer smarty redis git golang
+## LNMP 
+### nginx
+### mysql
+### php
+### redis
+![installRedis](linux/bin/installRedis)
+### composer
+### golang
 
 ## curl git proxy
     check the curl proxy `env |grep -i all_proxy`
