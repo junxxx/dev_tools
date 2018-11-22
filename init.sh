@@ -30,6 +30,13 @@ function gitInstalled() {
     #git --version;
     echo 0;
 }
+
+#get api doc for linux
+function getZeal() {
+    #debain or ubuntu 
+    sudo apt-get install zeal
+}
+
 if [ $(gitInstalled) -eq 0 ]
 then
     echo 'git required:';
