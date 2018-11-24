@@ -2,7 +2,7 @@
 # the script will set the linux dev environment 
 src=./linux
 
-function copyShell() {
+copyShell() {
     bashrc=./linux/.bashrc
     bashalias=./linux/.bashalias
     if [ -f $bashrc ] 
@@ -12,7 +12,7 @@ function copyShell() {
     then  cat $bashalias >> ~/.bashalias 
     fi
 }
-function installVim() {
+installVim() {
     #todo install vim vundle global
     vimfile=$src/vim/.vim
     vimrc=$src/vim/.vimrc
@@ -26,7 +26,7 @@ function installVim() {
     fi
     echo "launch vim and install plugin with the command :PluginInstall"
 }
-function installSS() {
+installSS() {
     #centos
     yum install epel-release -y
     yum install gcc gettext autoconf libtool automake make pcre-devel asciidoc xmlto c-ares-devel libev-devel libsodium-devel mbedtls-devel -y
@@ -34,26 +34,34 @@ function installSS() {
     echo 'todo'
 }
 
-function installPrivoxy() {
-    echo 'todo'
+installPrivoxy() {
+    #centos
+    sudo yum install privoxy
+    #debian
+    sudo apt-get install privoxy
 }
 
-function gitInstalled() {
+gitInstalled() {
     git --version | awk '{print tolower($1)}'
 }
 
 #get api doc for linux
-function getZeal() {
+getZeal() {
     #debain or ubuntu 
     sudo apt-get install zeal
 }
 
-gitInstalled
 if [ $(gitInstalled) -eq 0 ]
 then
     echo 'git required:';
     exit;
 fi
 
-#installVim
+_main() {
+    echo 'installPhp';
+    echo 'installNginx';
+    echo 'installMysql';
+    echo 'installRedis';
+}
 
+_main
