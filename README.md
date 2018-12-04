@@ -46,7 +46,7 @@ install ctags  sudo apt-get install ctags
 ### mysql
 ### php
 ### redis
-![installRedis](linux/bin/installRedis)
+[installRedis](linux/bin/installRedis)
 ### composer
 ### golang
 
