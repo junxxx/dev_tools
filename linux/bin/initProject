@@ -1,0 +1,23 @@
+#!/bin/bash
+#this script is used for init git repositor is folder /opt/data/git
+project=$1
+reposDir=/opt/data/git
+if [ ! -f $reposDir ]; then
+    sudo mkdir -p $reposDir
+fi
+projectDir=$reposDir/$project.git
+if [ -d "$projectDir" ]; then
+    echo "project $project exist,quit"
+    exit
+fi
+if [ -z `grep -E "git:" /etc/passwd `]; then
+    echo "error: user git not exist, adduser git first!"
+    exit
+fi
+su git
+mkdir -p $projectDir 
+cd $projectDir 
+git init --bare
+chown -R git:git $projectDir
+exit
+
