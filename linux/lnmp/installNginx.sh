@@ -19,13 +19,13 @@ fi
 if [ ! -d $appDir ]; then
     mkdir -p $appDir
 fi
-if [ -f $sourceDir/nginx.tar.gz ]; then
-    wget -O $souceDir/nginx.tar.gz http://nginx.org/download/nginx-$appVer.tar.gz
+if [ ! -f $sourceDir/nginx.tar.gz ]; then
+    wget -O $sourceDir/nginx.tar.gz http://nginx.org/download/nginx-$appVer.tar.gz
 fi
 cd $sourceDir
 if [ -d /opt/app/$app ]; then
     echo "app /opt/app/$app already exist, install quit."
-    exit(0)
+    exit
 fi
 tar xvf nginx.tar.gz
 cd nginx-$appVer 
