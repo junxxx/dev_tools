@@ -61,3 +61,9 @@ install ctags  sudo apt-get install ctags
     先解决问题: 
     编辑~/.bashrc   unset all_proxy unset ALL_PROXY source ~/.bashrc
     shell加载dotFile顺序 /etc/profile ~/.bash_profile ~/.bash_login ~/.profile
+## gdb
+    gcc -g source.c
+    gdb ./a.out
+    run
+
+
