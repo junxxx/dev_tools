@@ -57,6 +57,9 @@ then
     exit;
 fi
 
+#install custom shell git,ss-local,privoxy,vim,
+#install nginx,php,mysql,
+#installVim
 _main() {
     echo 'installPhp';
     echo 'installNginx';

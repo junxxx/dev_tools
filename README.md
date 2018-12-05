@@ -68,3 +68,9 @@ yum install -y bash-completion
 yum 安装的--- yum list installed |grep softname
 
 todo ssh setting
+## gdb
+    gcc -g source.c
+    gdb ./a.out
+    run
+
+
