@@ -65,3 +65,4 @@ set fileencodings=utf-8,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
 set encoding=utf-8
 let g:instant_markdown_autostart = 0
+source ~/.vim/abbreviation.vim
