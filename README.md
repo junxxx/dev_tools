@@ -34,9 +34,15 @@ make && make install
 ```
 ## Cumstome vim edit
 manager vim plugin with [Vundle](https://github.com/VundleVim/Vundle.vim)
-install Ycm    python ~/.vim/bundle/YouCompleteMe/install.py
+```
+apt-get install python3-dev
+install Ycm    python3 ~/.vim/bundle/YouCompleteMe/install.py --clang-completer --system-libclang
+add below to .vimrc
+let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
+:YcmCompleter GoTo     #goto the definition of variable 
 use fugitive to manage git in vim edit
 install ctags  sudo apt-get install ctags
+```
 
 ## node
 `npm i npm ` to upgrade
