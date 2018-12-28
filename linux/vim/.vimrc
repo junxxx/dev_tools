@@ -9,38 +9,21 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-" YouCompleteMe
+"YouCompleteMe
 Plugin 'Valloric/YouCompleteMe'
-" nerdtree
+"nerdtree
 Plugin 'scrooloose/nerdtree'
-" markdown preview
+"git
+Plugin 'fugitive.vim'
 Plugin 'instant-markdown.vim'
-" tag
+"tag
 Plugin 'taglist.vim'
-" git
-Plugin 'tpope/vim-fugitive'
-" vim-go
-Plugin 'fatih/vim-go'
-
-
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-" Git plugin not hosted on GitHub
-" git repos on your local machine (i.e. when working on your own plugin)
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
-filetype plugin on
+"filetype plugin on
 "
 " Brief help
 " :PluginList       - lists configured plugins
@@ -50,19 +33,16 @@ filetype plugin on
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+" display hidden file
+let NERDTreeShowHidden=1
+
 set nu
-syntax on
-set autoindent
-set cindent
-set smartindent
 set tabstop=4
 set expandtab
 set shiftwidth=4
-set ai!
-set showmatch
-set ruler
-set fileencodings=utf-8,gb18030,gbk,gb2312,cp936
-set termencoding=utf-8
-set encoding=utf-8
 let g:instant_markdown_autostart = 0
+let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
+let g:ycm_confirm_extra_conf = 0
 source ~/.vim/abbreviation.vim
+set tags+=tags,/usr/include/tags
+nnoremap ,gt :YcmCompleter GoTo<CR>
