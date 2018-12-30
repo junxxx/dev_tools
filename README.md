@@ -77,6 +77,8 @@ todo ssh setting
 ## gdb
     gcc -g source.c
     gdb ./a.out
+    b line|func_name
     run
-
+    n next line
+[ctags](https://blog.csdn.net/wangeen/article/details/22874063)
 
