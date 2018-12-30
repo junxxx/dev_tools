@@ -34,10 +34,13 @@ make && make install
 ```
 ## Cumstome vim edit
 manager vim plugin with [Vundle](https://github.com/VundleVim/Vundle.vim)
+
+install [Ycm](https://github.com/Valloric/YouCompleteMe#linux-64-bit)
 ```
-apt-get install python3-dev
-install Ycm    python3 ~/.vim/bundle/YouCompleteMe/install.py --clang-completer --system-libclang
+apt-get install python3-dev clang
+python3 ~/.vim/bundle/YouCompleteMe/install.py --clang-completer --system-libclang
 add below to .vimrc
+let g:ycm_confirm_extra_conf = 0
 let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 :YcmCompleter GoTo     #goto the definition of variable 
 use fugitive to manage git in vim edit
