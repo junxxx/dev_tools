@@ -18,6 +18,7 @@ Plugin 'fugitive.vim'
 Plugin 'instant-markdown.vim'
 "tag
 Plugin 'taglist.vim'
+Plugin 'StanAngeloff/php.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -36,7 +37,9 @@ filetype plugin indent on    " required
 " display hidden file
 let NERDTreeShowHidden=1
 
+syntax on
 set nu
+set ruler
 set tabstop=4
 set expandtab
 set shiftwidth=4
