@@ -51,6 +51,10 @@ getZeal() {
     sudo apt-get install zeal
 }
 
+installVbox() {
+    echo 'todo install virtual box' 
+}
+
 if [ $(gitInstalled) -eq 0 ]
 then
     echo 'git required:';
@@ -61,6 +65,7 @@ fi
 #install nginx,php,mysql,
 #installVim
 _main() {
+    echo 'installVbox';
     echo 'installPhp';
     echo 'installNginx';
     echo 'installMysql';
