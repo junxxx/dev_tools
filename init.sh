@@ -2,6 +2,18 @@
 # the script will set the linux dev environment 
 src=./linux
 
+installVagrant() {
+    brew cask install virtualbox
+    brew cask install vagrant
+    #add box
+    vagrant box add precise64 http://files.vagrantup.com/precise64.box
+    vagrant init precise64
+    vagrant up
+    vagrant ssh
+    vagrant halt
+    echo 'install vagrant'
+}
+
 copyShell() {
     bashrc=./linux/.bashrc
     bashalias=./linux/.bashalias
@@ -61,6 +73,7 @@ fi
 #install nginx,php,mysql,
 #installVim
 _main() {
+    echo 'installVagrant in mac';
     echo 'installPhp';
     echo 'installNginx';
     echo 'installMysql';
