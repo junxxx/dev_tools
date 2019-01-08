@@ -63,6 +63,7 @@ getZeal() {
     sudo apt-get install zeal
 }
 
+
 if [ $(gitInstalled) -eq 0 ]
 then
     echo 'git required:';
