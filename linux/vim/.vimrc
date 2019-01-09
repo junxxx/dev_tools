@@ -43,6 +43,19 @@ set ruler
 set tabstop=4
 set expandtab
 set shiftwidth=4
+" set color scheme
+colorscheme evening
+" highlight current line
+set cursorline
+" close error bells
+set noerrorbells
+set novisualbell
+set t_vb=
+set showmatch
+set matchtime=2
+set laststatus=2
+set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ Ln\ %l,\ Col\ %c/%L%) 
+
 let g:instant_markdown_autostart = 0
 let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
 let g:ycm_confirm_extra_conf = 0

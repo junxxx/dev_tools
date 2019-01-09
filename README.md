@@ -46,6 +46,7 @@ let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/
 use fugitive to manage git in vim edit
 install ctags  sudo apt-get install ctags
 ```
+## tmux
 
 ## node
 `npm i npm ` to upgrade
