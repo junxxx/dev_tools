@@ -47,6 +47,12 @@ use fugitive to manage git in vim edit
 install ctags  sudo apt-get install ctags
 ```
 ## tmux
+like vim, tmux have conf file name .tmux.conf located in ~/.tmux.conf
+tmux shortcut key may have conflict with rime, so suggest to use
+the system default input method
+split the window to left and right C-b %, up and down C-b "
+change the pane C-b then release and press the arrow key
+
 
 ## node
 `npm i npm ` to upgrade
