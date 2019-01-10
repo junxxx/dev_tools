@@ -26,6 +26,8 @@ export http_proxy=http://127.0.0.1:8118 https_proxy=http://127.0.0.1:8118
 ```
 ## [Vim](https://github.com/vim/vim)
 ```
+install vim on mac 
+brew install macvim --override-system-vim
 download the source file 
 cd to source file
 (centos 7)./configure --enable-pythoninterp=yes --with-python-config-dir=/usr/lib64/python2.7/config
