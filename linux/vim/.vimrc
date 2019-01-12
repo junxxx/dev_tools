@@ -19,6 +19,9 @@ Plugin 'instant-markdown.vim'
 "tag
 Plugin 'taglist.vim'
 Plugin 'StanAngeloff/php.vim'
+Plugin 'ctrlp.vim'
+Plugin 'Syntastic'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -43,6 +46,7 @@ set ruler
 set tabstop=4
 set expandtab
 set shiftwidth=4
+set autochdir
 " set color scheme
 colorscheme evening
 " highlight current line
@@ -55,6 +59,9 @@ set showmatch
 set matchtime=2
 set laststatus=2
 set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ Ln\ %l,\ Col\ %c/%L%) 
+" turn hybrid line numbers on
+:set number relativenumber
+:set nu rnu
 
 let g:instant_markdown_autostart = 0
 let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
