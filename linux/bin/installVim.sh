@@ -1,4 +1,12 @@
 #!/bin/bash
+function availableVer {
+    local url="https://github.com/vim/vim/releases"
+    html=$(curl https://github.com/vim/vim/releases)
+    echo $html
+    return 1
+}
+availableVer
+exit
 app='vim'
 if [[ $# -lt 1 ]]; then
     echo "usage :  $0 version"
