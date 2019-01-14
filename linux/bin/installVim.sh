@@ -10,6 +10,7 @@ exit
 app='vim'
 if [[ $# -lt 1 ]]; then
     echo "usage :  $0 version"
+    echo "checkout https://github.com/vim/vim/releases "
     exit
 fi
 ver=$1
