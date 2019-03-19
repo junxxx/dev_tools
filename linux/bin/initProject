@@ -1,6 +1,10 @@
 #!/bin/bash
 #this script is used for init git repositor is folder /opt/data/git
 project=$1
+if [ -z "$project" ]; then
+    echo "Usage: $0 projectName";
+    exit 0;
+fi
 reposDir=/opt/data/git
 if [ ! -f $reposDir ]; then
     sudo mkdir -p $reposDir
