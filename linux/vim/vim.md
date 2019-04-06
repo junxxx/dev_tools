@@ -6,3 +6,4 @@
     :5,12s/foo/bar/g  change foo to bar from line 5 to 12
 ### [abbreviation](http://vim.wikia.com/wiki/Using_abbreviations)
 
+set vim as php IDE
