@@ -5,7 +5,7 @@ development tools
 (mac) proxifier
 
 [ShadowsocksX](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
-mac下更好。内部已经集成privoxy，全局代理和http代理简单易用。
+mac下更好。内部已经集成privoxy，全局代理和http代理简单易用。
 
 proxy in terminal 
 centos 
