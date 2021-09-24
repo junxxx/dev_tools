@@ -27,9 +27,8 @@ if [ -d /opt/app/$app ]; then
     echo "app /opt/app/$app already exist, install quit."
     exit
 fi
+sudo apt-get install libpcre3 libpcre3-dev zlib1g zlib1g-dev
 tar xvf nginx.tar.gz
 cd nginx-$appVer 
 ./configure --prefix=/opt/app/$app --user=nginx --group=nginx --with-http_v2_module --with-http_gunzip_module 
-make
-make install
-rm -rf $sourceDir/nginx.tar.gz $sourceDir/nginx-$appVer
+make && make install && rm -rf $sourceDir/nginx.tar.gz $sourceDir/nginx-$appVer

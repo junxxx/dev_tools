@@ -24,7 +24,23 @@ forward            10.*.*.*/     .
 forward           127.*.*.*/     .
 export http_proxy=http://127.0.0.1:8118 https_proxy=http://127.0.0.1:8118
 ```
+启动
+
+```bash
+/etc/init.d/privoxy start 
+```
+
+设置开机启动 
+
+```
+/etc/rc.local
+文件中加入自定义脚本，如果/etc/rc.local文件不存在，则新建并给可执行权限
+```
+
+
+
 ## [Vim](https://github.com/vim/vim)
+
 ```
 install vim on mac 
 brew install macvim --override-system-vim
@@ -70,7 +86,7 @@ change the pane C-b then release and press the arrow key
 
 ## curl git proxy
     check the curl proxy `env |grep -i all_proxy`
-
+    
     问题：curl 没有反应，也不报错。curl -v 发现走的127.0.0.1的socket代理。
     echo $http_proxy无果,echo $all_proxy(罪在此)。
     其实有更方便快捷的方法定位问题所在。`env`查看所有的shell variable，并查看是否含有proxy关键字。 
@@ -94,3 +110,10 @@ todo ssh setting
     n next line
 [ctags](https://blog.csdn.net/wangeen/article/details/22874063)
 
+### Docker
+
+Docker一次构建，多处运行，开发、测试、生产环境保持一致。已经是不二之选。
+
+### K8S
+
+[官方文档](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
