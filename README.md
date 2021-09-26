@@ -1,5 +1,10 @@
 # Develop tools
 development tools
+## [iTerm2(Mac)](https://iterm2.com/)
+## [oh-my-zsh](https://ohmyz.sh/#install)
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 ## Cross the great wall [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev)
 ## [Privoxy](http://www.privoxy.org/)
 (mac) proxifier
@@ -77,6 +82,10 @@ change the pane C-b then release and press the arrow key
 
 ## node
 利用[nvm](https://github.com/nvm-sh/nvm)来管理node版本
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+```
 
 ## LNMP 
 ### nginx
