@@ -76,7 +76,7 @@ change the pane C-b then release and press the arrow key
 
 
 ## node
-`npm i npm ` to upgrade
+利用[nvm](https://github.com/nvm-sh/nvm)来管理node版本
 
 ## LNMP 
 ### nginx
