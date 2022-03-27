@@ -103,3 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # Vi mode
 bindkey -v
+
+# alias
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
+
