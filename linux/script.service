@@ -1,0 +1,13 @@
+[Unit]
+Description=My autostart scripts
+After=network.target
+
+[Service]
+Type=simple
+User=ankush
+ExecStart=/bin/bash -c "/home/centos/scripts/autostart.sh"
+Restart=on-abort
+
+
+[Install]
+WantedBy=multi-user.target
